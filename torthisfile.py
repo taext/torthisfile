@@ -4,7 +4,7 @@
 
 import requests, re, time, sys, random, os, subprocess, datetime, time
 
-version = "v1.98"
+version = "v1.99"
 date = "november 10th 2019" 
 author = "github/taext"
 summary = "Download file via Tor (random IP and user-agent)"
