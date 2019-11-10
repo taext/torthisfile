@@ -8,7 +8,7 @@ version = "v1.99"
 date = "november 10th 2019" 
 author = "github/taext"
 summary = "Download file via Tor (random IP and user-agent)"
-whats_new = "update for general-use Tor file downloading"
+whats_new = "put meta-data into constants: version, date, author, summary, whats_new"
 
 
 def download(url, download_folder="~/Downloads/"):
