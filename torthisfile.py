@@ -10,7 +10,7 @@ author = "github/taext"
 whats_new = "update for general-use Tor file downloading"
 
 
-def download_w_tor(url, download_folder="~/Downloads/"):
+def download(url, download_folder="~/Downloads/"):
     
     """Download a file using random IP and user-agent"""
 
@@ -57,8 +57,8 @@ def download_w_tor(url, download_folder="~/Downloads/"):
 if __name__ == '__main__':
 
     if len(sys.argv) == 3:
-        download_w_tor(sys.argv[1], sys.argv[2])
+        download(sys.argv[1], sys.argv[2])
     elif len(sys.argv) == 2:
-        download_w_tor(sys.argv[1])
+        download(sys.argv[1])
     else:
         print('\nSyntax:   run.py URL\n')
