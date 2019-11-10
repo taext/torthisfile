@@ -1,10 +1,13 @@
 #!/home/dd/anaconda3/bin/python
+""" ttf.py - Tor This File Downloader
+    Download file using random IP and user-agent """
+
 import requests, re, time, sys, random, os, subprocess, datetime, time
 
-# ttf.py - Tor This File Downloader v1.98
-# Download file using random IPs and user-agents
-# november 10th 2019 by gh/taext
-# what's new: update for single-use downloading
+version = "v1.98"
+date = "november 10th 2019" 
+author = "github/taext"
+whats_new = "update for general-use Tor file downloading"
 
 
 def download_w_tor(url, download_folder="~/Downloads/"):
@@ -49,12 +52,6 @@ def download_w_tor(url, download_folder="~/Downloads/"):
     f = open('log.txt', 'a')
     f.write(new_log_str + "\n")
     f.close()
-
-    # # random delay in specified range
-    # randinteger = random.randint(time_delay_from, time_delay_to)
-    # randintstr = str(datetime.timedelta(seconds=randinteger))
-    # print('sleeping randomly for ' + randintstr)
-    # time.sleep(randinteger)
 
 
 if __name__ == '__main__':
