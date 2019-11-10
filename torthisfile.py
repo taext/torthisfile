@@ -7,7 +7,7 @@ import requests, re, time, sys, random, os, subprocess, datetime, time
 # what's new: update for single-use downloading
 
 
-def download_w_tor(url, download_folder):
+def download_w_tor(url, download_folder="~/Downloads/"):
     
     """Download a file using random IP and user-agent"""
 
@@ -24,8 +24,8 @@ def download_w_tor(url, download_folder):
     print('\nRestarted Tor service')
 
     # pause for Tor restart to take effect
-    print('Waiting 5 seconds for Tor service restart to take effect...')
-    time.sleep(5)
+    print('Waiting 1 seconds for Tor service restart to take effect...')
+    time.sleep(1)
 
     # download and print IP address check
     url_check = subprocess.check_output(['torify','wget','-q','-O','-','icanhazip.com/']).decode().rstrip()
@@ -61,5 +61,7 @@ if __name__ == '__main__':
 
     if len(sys.argv) == 3:
         download_w_tor(sys.argv[1], sys.argv[2])
+    elif len(sys.argv) == 2:
+        download_w_tor(sys.argv[1])
     else:
         print('\nSyntax:   run.py URL\n')
