@@ -4,6 +4,8 @@
 
 import requests, re, time, sys, random, os, subprocess, datetime, time
 
+installation_guide = "apt install tor"
+
 version = "v1.99"
 date = "november 10th 2019" 
 author = "github/taext"
@@ -24,7 +26,7 @@ def download(url, download_folder="~/Downloads/"):
     filename = m.group(1)
     
     #restart Tor service to get new IP address
-    subprocess.Popen(['sudo','service','tor','restart']).wait()
+    subprocess.Popen(['easy_sudo','sudo','service','tor','restart']).wait()
     print('\nRestarted Tor service')
 
     # pause for Tor restart to take effect
