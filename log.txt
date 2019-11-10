@@ -7,3 +7,6 @@
 2019-11-10 23:18 - Downloaded information.dk with URL 217.115.10.132 and user-agent Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.212.0 Safari/532.0
 2019-11-10 23:19 - Downloaded information.dk with URL 92.62.139.103 and user-agent Mozilla/5.0 (X11; U; Linux i686; pl; rv:1.8.0.1) Gecko/20060124 Firefox/1.5.0.1 Ubuntu
 2019-11-10 23:21 - Downloaded information.dk with URL 176.10.99.200 and user-agent Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b5pre) Gecko/20090517 Firefox/3.5b4pre (.NET CLR 3.5.30729)
+2019-11-10 23:39 - Downloaded politiken.dk with URL 185.100.87.129 and user-agent Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.8 Safari/530.5
+2019-11-10 23:40 - Downloaded politiken.dk with URL 185.220.101.34 and user-agent Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.14 (KHTML, like Gecko) Chrome/9.0.600.0 Safari/534.14
+2019-11-10 23:43 - Downloaded politiken.dk with URL 185.220.101.34 and user-agent Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9b5pre) Gecko/2008030706 Firefox/3.0b5pre
