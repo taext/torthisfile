@@ -1,7 +1,7 @@
 #!/home/dd/anaconda3/bin/python
 import requests, re, time, sys, random, os, subprocess, datetime, time
 
-# ttf.py - Tor This File Downloader v1.97
+# ttf.py - Tor This File Downloader v1.98
 # Download file using random IPs and user-agents
 # november 10th 2019 by gh/taext
 # what's new: update for single-use downloading
