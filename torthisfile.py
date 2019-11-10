@@ -6,7 +6,7 @@ import requests, re, time, sys, random, os, subprocess, datetime, time
 
 installation_guide = "apt install tor"
 
-version = "v2.00"
+version = "v2.01"
 date = "november 10th 2019" 
 author = "github/taext"
 summary = "Download file via Tor (random IP and user-agent)"
