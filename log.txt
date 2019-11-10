@@ -3,3 +3,7 @@
 2019-11-10 22:51 - Downloaded S04_E03_Printing_A_New_Reality_with_Cory_Doctorow.mp3 with URL 199.87.154.255 and user-agent Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0
 2019-11-10 22:55 - Downloaded information.dk with URL 94.140.116.189 and user-agent Mozilla/5.0 (Macintosh; U; PPC Mac OS X; de-de) AppleWebKit/125.5.5 (KHTML, like Gecko) Safari/125.12_Adobe
 2019-11-10 23:04 - Downloaded information.dk with URL 185.220.102.8 and user-agent Opera/9.00 (Windows; U)
+2019-11-10 23:13 - Downloaded information.dk with URL 195.154.179.3 and user-agent Mozilla/5.0 (Windows NT 5.1; U; Firefox/3.5; en; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 Opera 10.53
+2019-11-10 23:18 - Downloaded information.dk with URL 217.115.10.132 and user-agent Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.212.0 Safari/532.0
+2019-11-10 23:19 - Downloaded information.dk with URL 92.62.139.103 and user-agent Mozilla/5.0 (X11; U; Linux i686; pl; rv:1.8.0.1) Gecko/20060124 Firefox/1.5.0.1 Ubuntu
+2019-11-10 23:21 - Downloaded information.dk with URL 176.10.99.200 and user-agent Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.1b5pre) Gecko/20090517 Firefox/3.5b4pre (.NET CLR 3.5.30729)
