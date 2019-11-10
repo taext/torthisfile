@@ -26,7 +26,7 @@ def download(url, download_folder="~/Downloads/"):
     filename = m.group(1)
     
     #restart Tor service to get new IP address
-    subprocess.Popen(['easy_sudo','sudo','service','tor','restart']).wait()
+    subprocess.Popen(['./easy_sudo','sudo','service','tor','restart']).wait()
     print('\nRestarted Tor service')
 
     # pause for Tor restart to take effect
@@ -64,4 +64,4 @@ if __name__ == '__main__':
     elif len(sys.argv) == 2:
         download(sys.argv[1])
     else:
-        print('\nSyntax:   run.py URL\n')
+        print('\nSyntax:   torthisfile.py   URL   [DOWNLOAD_FOLDER]\n')
