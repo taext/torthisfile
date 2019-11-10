@@ -6,11 +6,11 @@ import requests, re, time, sys, random, os, subprocess, datetime, time
 
 installation_guide = "apt install tor"
 
-version = "v1.99"
+version = "v2.00"
 date = "november 10th 2019" 
 author = "github/taext"
 summary = "Download file via Tor (random IP and user-agent)"
-whats_new = "put meta-data into constants: version, date, author, summary, whats_new"
+whats_new = "use easy_sudo credentials"
 
 
 def download(url, download_folder="~/Downloads/"):
