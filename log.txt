@@ -10,3 +10,5 @@
 2019-11-10 23:39 - Downloaded politiken.dk with URL 185.100.87.129 and user-agent Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.5 (KHTML, like Gecko) Chrome/2.0.172.8 Safari/530.5
 2019-11-10 23:40 - Downloaded politiken.dk with URL 185.220.101.34 and user-agent Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.14 (KHTML, like Gecko) Chrome/9.0.600.0 Safari/534.14
 2019-11-10 23:43 - Downloaded politiken.dk with URL 185.220.101.34 and user-agent Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9b5pre) Gecko/2008030706 Firefox/3.0b5pre
+2019-11-10 23:57 - Downloaded tv2.dk with URL 23.129.64.191 and user-agent Mozilla/5.0 (Windows; U; Windows NT 6.1; fr; rv:1.9.1.9) Gecko/20100315 Firefox/3.5.9
+2019-11-10 23:58 - Downloaded tv2.dk with URL 144.217.255.89 and user-agent Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.1.4) Gecko/20070515 Firefox/2.0.0.4
