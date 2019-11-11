@@ -82,10 +82,12 @@ def download(url, download_folder="~/Downloads/"):
 
 
 if __name__ == '__main__':
-
+    # explicit download folder argument passed
     if len(sys.argv) == 3:
         download(sys.argv[1], sys.argv[2])
+    # no folder argument passed (use ~/Downloads folder)
     elif len(sys.argv) == 2:
         download(sys.argv[1])
+    # no arguments passed, output syntax guide
     else:
         print('\nSyntax:   torthisfile.py   URL   [DOWNLOAD_FOLDER]\n')
