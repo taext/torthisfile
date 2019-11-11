@@ -1,16 +1,18 @@
 #!/home/dd/anaconda3/bin/python
-""" ttf.py - Tor This File Downloader
-    Download file using random IP and user-agent """
+""" ttf.py - Tor This File - Download file via Tor (with random IP and user-agent) """
 
 import requests, re, time, sys, random, os, subprocess, datetime, time
 
 installation_guide = "apt install tor"
 
 version = "v2.01"
-date = "november 10th 2019" 
+date = "November 10th 2019" 
 author = "github/taext"
-summary = "Download file via Tor (random IP and user-agent)"
+summary = "Download file via Tor (with random IP and user-agent)"
 whats_new = "use easy_sudo credentials"
+
+def about(): 
+    print(summary + "\n" + version + " - " + date + " - by " + author)
 
 wait_time = 1
 
