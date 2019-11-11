@@ -24,14 +24,15 @@ def installation_guide():
 def user_guide():
     subprocess.Popen(['xdg-open',online_user_guide]).wait()
 
-def syntax_highlight_code():
+def syntax_highlight_code(dark=True):
+    if not dark:
+        online_code_highlighted.replace("ttf","ttf_light")
     subprocess.Popen(['xdg-open',online_code_highlighted]).wait()
 
 
 
 def download(url, download_folder="~/Downloads/"):
-    
-    """Download a file using random IP and user-agent"""
+    """Download file using random IP and user-agent"""
 
     # get user-agent strings from file
     f = open('user-agents.txt', 'r')
