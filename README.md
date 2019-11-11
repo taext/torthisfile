@@ -6,14 +6,11 @@ import torthisfile as ttf
 
 
 ```python
-ttf.summary
+print(ttf.summary + "\n" + ttf.version + " - " + ttf.date + " - by " + ttf.author)
 ```
 
-
-
-
-    'Download file via Tor (random IP and user-agent)'
-
+    Download file via Tor (with random IP and user-agent)
+    v2.01 - November 10th 2019 - by github/taext
 
 
 
@@ -37,8 +34,8 @@ ttf.download("http://nytimes.com")    # defaults to download to ~/Downloads/
     Restarted Tor service
     Waiting 1 second for Tor service restart to take effect...
     
-    Tor URL: 71.19.148.20
-    Random User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.8) Gecko/20100727 Firefox/3.6.8
+    Tor URL: 109.70.100.21
+    Random User-Agent: Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.9.0.2) Gecko/2008092313 Ubuntu/8.04 (hardy) Firefox/3.0.2
     
 
 
@@ -51,7 +48,7 @@ ttf.download("http://nytimes.com", download_folder="~/Downloads")    # optionall
     Restarted Tor service
     Waiting 1 second for Tor service restart to take effect...
     
-    Tor URL: 104.244.78.102
-    Random User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0
+    Tor URL: 94.230.208.148
+    Random User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; cs; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 ( .NET CLR 3.5.30729)
     
 
