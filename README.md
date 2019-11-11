@@ -5,23 +5,22 @@ import torthisfile as ttf           # wget https://v1d.dk/z/ttf.zip
 ```
 
 
-
-### ttf.**about**()
-
+```python
+ttf.about()
+```
 
     Download file via Tor (with random IP and user-agent)
-    v2.04 - November 11th 2019 - by github/taext
+    v2.08 - November 11th 2019 - by github/taext
 
 
 
-
-### ttf.**installation_guide**()
-
+```python
+ttf.installation_guide()
+```
 
     1. apt install tor
-    2. input sudo password in easy_sudo file
 
-### ttf.**download**(url)
+
 
 ```python
 ttf.download("http://nytimes.com")  # defaults to download to ~/Downloads/
@@ -35,7 +34,7 @@ ttf.download("http://nytimes.com")  # defaults to download to ~/Downloads/
     Random User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; de-de) AppleWebKit/85.8.5 (KHTML, like Gecko) Safari/85
     
 
-### ttf.download(url, **download_folder**)
+
 
 ```python
 ttf.download("http://nytimes.com", download_folder="~/Downloads")  # optionally specify download_folder
@@ -49,7 +48,7 @@ ttf.download("http://nytimes.com", download_folder="~/Downloads")  # optionally 
     Random User-Agent: Mozilla/5.0 (Windows NT 4.0; U) Opera 6.05  [en]
     
 
-### **links**
+
 
 ```python
 ttf.user_guide()             # link to this user-guide (https://v1d.dk/h/ttf.htm)
