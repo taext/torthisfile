@@ -28,7 +28,7 @@ def user_guide():
     subprocess.Popen(['xdg-open',online_user_guide]).wait()
 
 def syntax_highlight_code(dark=True):
-    """Open online code with syntax highlighting, optionally light version"""
+    """Open online .png of code with syntax highlighting, optional light version"""
     if not dark:
         online_code_highlighted.replace("ttf","ttf_light")
     subprocess.Popen(['xdg-open',online_code_highlighted]).wait()
