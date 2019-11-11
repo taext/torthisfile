@@ -21,7 +21,7 @@ import torthisfile as ttf           # wget https://v1d.dk/z/ttf.zip
     1. apt install tor
     2. input sudo password in easy_sudo file
 
-### ttf.**download**()
+### ttf.**download**(url)
 
 ```python
 ttf.download("http://nytimes.com")  # defaults to download to ~/Downloads/
@@ -35,7 +35,7 @@ ttf.download("http://nytimes.com")  # defaults to download to ~/Downloads/
     Random User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; de-de) AppleWebKit/85.8.5 (KHTML, like Gecko) Safari/85
     
 
-### ttf.download(**download_folder**)
+### ttf.download(url, **download_folder**)
 
 ```python
 ttf.download("http://nytimes.com", download_folder="~/Downloads")  # optionally specify download_folder
