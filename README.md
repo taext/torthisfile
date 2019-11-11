@@ -10,7 +10,7 @@ ttf.about()
 ```
 
     Download file via Tor (with random IP and user-agent)
-    v2.01 - November 10th 2019 - by github/taext
+    v2.02 - November 10th 2019 - by github/taext
 
 
 
