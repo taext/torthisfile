@@ -15,16 +15,20 @@ whats_new = "removed easy_sudo from git history and re-added"
 
 wait_time = 1
 
-def about(): 
+def about():
+    """Print module information"""
     print(summary + "\n" + version + " - " + date + " - by " + author)
 
 def installation_guide():
+    """Print installation information"""
     _ = [print(str(i+1) + ".", item) for i, item in enumerate(installation_steps)]
 
 def user_guide():
+    """Open online user-guide"""
     subprocess.Popen(['xdg-open',online_user_guide]).wait()
 
 def syntax_highlight_code(dark=True):
+    """Open online code with syntax highlighting, optionally light version"""
     if not dark:
         online_code_highlighted.replace("ttf","ttf_light")
     subprocess.Popen(['xdg-open',online_code_highlighted]).wait()
