@@ -3,7 +3,7 @@
 
 import requests, re, time, sys, random, os, subprocess, datetime, time
 
-installation_steps = ["apt install tor","input sudo password in easy_sudo file"]
+installation_steps = ["apt install tor"]
 
 version = "v2.07"
 date = "November 11th 2019" 
