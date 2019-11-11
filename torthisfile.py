@@ -39,7 +39,7 @@ def download(url, download_folder="~/Downloads/"):
     """Download file using random IP and user-agent"""
 
     # get user-agent strings from file
-    f = open('user-agents.txt', 'r')
+    f = open('lib/user-agents.txt', 'r')
     agent_strings = f.readlines()
 
     # get filename from URL
@@ -89,3 +89,4 @@ if __name__ == '__main__':
         download(sys.argv[1])
     else:                     # no arguments passed, output syntax guide
         print('\nSyntax:   torthisfile.py   URL   [DOWNLOAD_FOLDER]\n')
+    
