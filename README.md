@@ -15,19 +15,16 @@ ttf.about()
 
 
 ```python
-ttf.installation_guide
+ttf.installation_guide()
 ```
 
-
-
-
-    'apt install tor'
-
+    1. apt install tor
+    2. input sudo password in easy_sudo
 
 
 
 ```python
-ttf.download("http://nytimes.com")    # defaults to download to ~/Downloads/
+ttf.download("http://nytimes.com")  # defaults to download to ~/Downloads/
 ```
 
     
@@ -41,7 +38,7 @@ ttf.download("http://nytimes.com")    # defaults to download to ~/Downloads/
 
 
 ```python
-ttf.download("http://nytimes.com", download_folder="~/Downloads")    # optionally specify download_folder
+ttf.download("http://nytimes.com", download_folder="~/Downloads")  # optionally specify download_folder
 ```
 
     
