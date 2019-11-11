@@ -3,7 +3,7 @@
 
 import requests, re, time, sys, random, os, subprocess, datetime, time
 
-installation_guide = "apt install tor"
+installation_steps = ["apt install tor","input sudo password in easy_sudo"]
 
 version = "v2.02"
 date = "November 10th 2019" 
@@ -13,6 +13,9 @@ whats_new = "add about()"
 
 def about(): 
     print(summary + "\n" + version + " - " + date + " - by " + author)
+
+def installation_guide():
+    _ = [print(str(i+1) + ".", item) for i, item in enumerate(installation_steps)]
 
 wait_time = 1
 
