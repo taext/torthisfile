@@ -5,12 +5,12 @@ import requests, re, time, sys, random, os, subprocess, datetime, time
 
 installation_steps = ["apt install tor","input sudo password in easy_sudo file"]
 
-version = "v2.02"
+version = "v2.03"
 date = "November 10th 2019" 
 author = "github/taext"
 summary = "Download file via Tor (with random IP and user-agent)"
 online_user_guide = "https://v1d.dk/h/ttf.htm"
-whats_new = "add about()"
+whats_new = "add user_guide()"
 
 def about(): 
     print(summary + "\n" + version + " - " + date + " - by " + author)
