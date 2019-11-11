@@ -1,6 +1,3 @@
 #!/bin/bash
 
-echo MYSUDOPASSWORD | sudo -S $*  # afterwards chmod 700 easy_sudo 
-                                  # to make this file readable only 
-                                  # by you
-
+echo MYSUDOPASSWORD | sudo -S $*
