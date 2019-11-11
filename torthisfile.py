@@ -12,6 +12,7 @@ author = "github/taext"
 summary = "Download file via Tor (random IP and user-agent)"
 whats_new = "use easy_sudo credentials"
 
+wait_time = 1
 
 def download(url, download_folder="~/Downloads/"):
     
@@ -30,7 +31,10 @@ def download(url, download_folder="~/Downloads/"):
     print('\nRestarted Tor service')
 
     # pause for Tor restart to take effect
-    print('Waiting 1 seconds for Tor service restart to take effect...')
+    report_str = 'Waiting ' + str(wait_time) + ' seconds for Tor service restart to take effect...'
+    if wait_time == 1:
+        report_str = report_str.replace("seconds","second")
+    print(report_str)
     time.sleep(1)
 
     # download and print IP address check
