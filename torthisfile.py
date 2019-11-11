@@ -5,13 +5,13 @@ import requests, re, time, sys, random, os, subprocess, datetime, time
 
 installation_steps = ["apt install tor","input sudo password in easy_sudo file"]
 
-version = "v2.05"
+version = "v2.06"
 date = "November 11th 2019" 
 author = "github/taext"
 summary = "Download file via Tor (with random IP and user-agent)"
 online_user_guide = "https://v1d.dk/h/ttf.htm"
 online_code_highlighted = "https://v1d.dk/h/ttf.png"
-whats_new = "removed easy_sudo from git history and re-added"
+whats_new = "add docstrings"
 
 wait_time = 1
 
