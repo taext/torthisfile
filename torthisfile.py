@@ -76,7 +76,7 @@ def download(url, download_folder="~/Downloads/"):
     time_str = time.strftime("%Y-%m-%d %H:%M")
     new_log_str = time_str + ' - Downloaded ' + filename + ' with URL ' \
                     + url_check + ' and user-agent ' + random_agent
-    f = open('log.txt', 'a')
+    f = open('lib/log.txt', 'a')
     f.write(new_log_str + "\n")
     f.close()
 
