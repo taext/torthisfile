@@ -57,7 +57,7 @@ def download(url, download_folder="~/Downloads/"):
     print('\nTor URL: ' + url_check)
 
     # get and print random user-agent
-    random_agent = agent_strings[random.randint(0, len(agent_strings))].rstrip()
+    random_agent = agent_strings[random.randint(0, len(agent_strings)-1)].rstrip()
     print('Random User-Agent: ' + random_agent + "\n")
     
     # build wget user-agent header argument string
