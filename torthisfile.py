@@ -3,12 +3,13 @@
 
 import requests, re, time, sys, random, os, subprocess, datetime, time
 
-installation_steps = ["apt install tor","input sudo password in easy_sudo"]
+installation_steps = ["apt install tor","input sudo password in easy_sudo file"]
 
 version = "v2.02"
 date = "November 10th 2019" 
 author = "github/taext"
 summary = "Download file via Tor (with random IP and user-agent)"
+online_user_guide = "https://v1d.dk/h/ttf.htm"
 whats_new = "add about()"
 
 def about(): 
@@ -16,6 +17,9 @@ def about():
 
 def installation_guide():
     _ = [print(str(i+1) + ".", item) for i, item in enumerate(installation_steps)]
+
+def user_guide():
+    subprocess.Popen(['xdg-open',online_user_guide]).wait()
 
 wait_time = 1
 
