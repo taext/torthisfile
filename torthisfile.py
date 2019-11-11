@@ -50,7 +50,7 @@ def download(url, download_folder="~/Downloads/"):
     if wait_time == 1:
         report_str = report_str.replace("seconds","second")
     print(report_str)
-    time.sleep(1)
+    time.sleep(wait_time)
 
     # download and print IP address check
     url_check = subprocess.check_output(['torify','wget','-q','-O','-','icanhazip.com/']).decode().rstrip()
