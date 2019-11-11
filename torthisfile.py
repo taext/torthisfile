@@ -10,7 +10,10 @@ date = "November 10th 2019"
 author = "github/taext"
 summary = "Download file via Tor (with random IP and user-agent)"
 online_user_guide = "https://v1d.dk/h/ttf.htm"
+online_code_highlighted = "https://v1d.dk/h/ttf.png"
 whats_new = "add user_guide()"
+
+wait_time = 1
 
 def about(): 
     print(summary + "\n" + version + " - " + date + " - by " + author)
@@ -21,7 +24,10 @@ def installation_guide():
 def user_guide():
     subprocess.Popen(['xdg-open',online_user_guide]).wait()
 
-wait_time = 1
+def syntax_highlight_code():
+    subprocess.Popen(['xdg-open',online_code_highlighted]).wait()
+
+
 
 def download(url, download_folder="~/Downloads/"):
     
