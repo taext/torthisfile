@@ -1,7 +1,7 @@
 
 
 ```python
-import torthisfile as ttf
+import torthisfile as ttf           # wget https://v1d.dk/z/ttf.zip
 ```
 
 
@@ -10,7 +10,7 @@ ttf.about()
 ```
 
     Download file via Tor (with random IP and user-agent)
-    v2.02 - November 10th 2019 - by github/taext
+    v2.04 - November 11th 2019 - by github/taext
 
 
 
@@ -19,7 +19,7 @@ ttf.installation_guide()
 ```
 
     1. apt install tor
-    2. input sudo password in easy_sudo
+    2. input sudo password in easy_sudo file
 
 
 
@@ -49,3 +49,9 @@ ttf.download("http://nytimes.com", download_folder="~/Downloads")  # optionally 
     Random User-Agent: Mozilla/5.0 (Windows NT 4.0; U) Opera 6.05  [en]
     
 
+
+
+```python
+ttf.user_guide()             # link to this user-guide (https://v1d.dk/h/ttf.htm)
+ttf.syntax_highlight_code()  # link to code with syntax highlighting (https://v1d.dk/h/ttf.png)
+```
