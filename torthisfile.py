@@ -34,7 +34,6 @@ def syntax_highlight_code(dark=True):
     subprocess.Popen(['xdg-open',online_code_highlighted]).wait()
 
 
-
 def download(url, download_folder="~/Downloads/"):
     """Download file using random IP and user-agent"""
 
