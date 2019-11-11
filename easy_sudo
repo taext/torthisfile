@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo MYSUDOPASSWORD | sudo -S $*
+# echo MYSUDOPASSWORD | sudo -S $*  # apparently a wrong sudo password also does the trick...
+
+echo WRONGPASSWORDSALSOWORKS | sudo -S $* 1> /dev/null 2> /dev/null
