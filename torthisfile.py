@@ -13,6 +13,7 @@ online_user_guide = "https://v1d.dk/h/ttf.htm"
 online_code_highlighted = "https://v1d.dk/h/ttf.png"
 whats_new = "add docstrings"
 
+# how many seconds to wait for Tor service to restart
 wait_time = 1
 
 def about():
