@@ -5,11 +5,11 @@ import requests, re, time, sys, random, os, subprocess, datetime, time
 
 installation_guide = "apt install tor"
 
-version = "v2.01"
+version = "v2.02"
 date = "November 10th 2019" 
 author = "github/taext"
 summary = "Download file via Tor (with random IP and user-agent)"
-whats_new = "use easy_sudo credentials"
+whats_new = "add about()"
 
 def about(): 
     print(summary + "\n" + version + " - " + date + " - by " + author)
