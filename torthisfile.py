@@ -1,6 +1,17 @@
 #!/home/dd/anaconda3/bin/python
 """ ttf.py - Tor This File - Download file via Tor (with random IP and user-agent) """
 
+"""
+ _______ _______ ______     _______ __   __ ___ _______   _______ ___ ___     _______ 
+|       |       |    _ |   |       |  | |  |   |       | |       |   |   |   |       |
+|_     _|   _   |   | ||   |_     _|  |_|  |   |  _____| |    ___|   |   |   |    ___|
+  |   | |  | |  |   |_||_    |   | |       |   | |_____  |   |___|   |   |   |   |___ 
+  |   | |  |_|  |    __  |   |   | |       |   |_____  | |    ___|   |   |___|    ___|
+  |   | |       |   |  | |   |   | |   _   |   |_____| | |   |   |   |       |   |___ 
+  |___| |_______|___|  |_|   |___| |__| |__|___|_______| |___|   |___|_______|_______|
+
+"""
+
 import requests, re, time, sys, random, os, subprocess, datetime, time
 
 installation_steps = ["apt install tor"]
